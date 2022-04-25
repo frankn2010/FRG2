@@ -1,2 +1,2 @@
-# FRG2
+# FRG
 Created with CodeSandbox
