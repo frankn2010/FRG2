@@ -1,0 +1,68 @@
+.logo-div {
+  background-color: black;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.about-div {
+  background-color: white;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.contact-div {
+  background-color: black;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.contact-text {
+  color: white;
+}
+
+.icon-style {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.filler-div {
+  padding-bottom: 50px;
+}
+.twitter {
+  color: #1da1f2;
+}
+
+.youtube {
+  color: #c4302b;
+  padding-left: 25px;
+}
+
+.itchio {
+  color: white;
+  padding-left: 25px;
+}
+
+.header-text {
+  font-family: "Rubic Dirt", cursive;
+}
+
+.write-text {
+  font-family: "Noto Sans TC", sans-serif;
+  font-size: 22px;
+}
+
+.social-media {
+  padding-top: 100px;
+}
+
+#about-p {
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-indent: 75px;
+  line-height: 1.75;
+}
+
+#email-text {
+  font-size: 30px;
+}
