@@ -1,19 +1,22 @@
-.logo-div {
-  background-color: black;
-  padding-top: 200px;
-  padding-bottom: 200px;
+.img-logo {
+  /* background-color: black; */
+  padding-top: 100px;
+  padding-bottom: 50px;
+  border-radius: 100px;
 }
 
 .about-div {
-  background-color: white;
-  padding-top: 200px;
+  padding-top: 50px;
   padding-bottom: 200px;
+  border-radius: 100px;
+  background-color: #536878;
 }
 
 .contact-div {
-  background-color: black;
+  background-color: #36454f;
   padding-top: 200px;
   padding-bottom: 200px;
+  border-radius: 100px;
 }
 
 .contact-text {
@@ -27,9 +30,12 @@
 
 .filler-div {
   padding-bottom: 50px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 .twitter {
   color: #1da1f2;
+  text-decoration: none;
 }
 
 .youtube {
@@ -38,21 +44,23 @@
 }
 
 .itchio {
-  color: white;
+  color: #fa5c5c;
   padding-left: 25px;
 }
 
 .header-text {
   font-family: "Rubic Dirt", cursive;
+  color: white;
+  padding-left: 5px;
 }
 
 .write-text {
-  font-family: "Noto Sans TC", sans-serif;
+  font-family: "Noto Sans Mono", monospace;
   font-size: 22px;
 }
 
 .social-media {
-  padding-top: 100px;
+  padding-top: 0px;
 }
 
 #about-p {
@@ -61,8 +69,9 @@
   padding-right: 50px;
   text-indent: 75px;
   line-height: 1.75;
+  color: white;
 }
 
 #email-text {
-  font-size: 30px;
+  font-size: 17px;
 }

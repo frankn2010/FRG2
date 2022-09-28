@@ -1,9 +1,5 @@
 {
   "responsive-preview": {
-    "Mobile": [
-      320,
-      675
-    ],
     "Tablet": [
       1024,
       765
@@ -15,6 +11,10 @@
     "Desktop  HD": [
       1920,
       1080
+    ],
+    "Mobile": [
+      375,
+      812
     ]
   }
 }
