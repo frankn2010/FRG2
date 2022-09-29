@@ -2,25 +2,26 @@
   /* background-color: black; */
   padding-top: 100px;
   padding-bottom: 50px;
-  border-radius: 100px;
 }
 
 .about-div {
   padding-top: 50px;
   padding-bottom: 200px;
-  border-radius: 100px;
-  background-color: #536878;
+  background-color: black;
+  /* background-color: #536878; */
+  border-radius: 0px;
 }
 
 .contact-div {
-  background-color: #36454f;
-  padding-top: 200px;
-  padding-bottom: 200px;
-  border-radius: 100px;
+  /* background-color: #36454f; */
+  background-color: white;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border-radius: 0px;
 }
 
 .contact-text {
-  color: white;
+  color: black;
 }
 
 .icon-style {
@@ -49,7 +50,7 @@
 }
 
 .header-text {
-  font-family: "Rubic Dirt", cursive;
+  font-family: "Rubic Dirt";
   color: white;
   padding-left: 5px;
 }
