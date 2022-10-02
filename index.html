@@ -51,7 +51,20 @@
           <!-- <img src="/docs/5.1/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24" class="d-inline-block align-text-top"> -->
         <!-- </a> -->
         
-        <a class="navbar-brand" href="index.html">Forge Reality Games</a>
+        <div class="newsletter-padding">
+          <a class="navbar-brand" href="index.html">Forge Reality Games</a>
+        </div>
+        
+        
+        <!-- Newsletter Signup Button -->
+        
+        <a class="btn btn-info" data-bs-toggle="modal" data-bs-target="#newsletterModal" role="button" aria-controls="offcanvasExample">
+            Newsletter Signup
+        </a>
+      
+          
+        
+
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigaton">
           <span class="navbar-toggler-icon"</span>
         </button>
@@ -74,9 +87,29 @@
           </ul>
         </div>
       </div>
-    </nav> <!-- End of Navbar -->
+    </nav> 
+    <!-- End of Navbar -->
+  
+  <!-- Modal -->
+  <div class="modal fade" id="newsletterModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Signup for our newsletter!</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <iframe width="540" height="305" src="https://e6c5b2dd.sibforms.com/serve/MUIEAE1vlXy0eMg6LWub4Aqde19wIfq3tRxEo7DJu2MDJl4o7UOrLUpe2_vvp4XYff7Cy8eh5dyZ5CSvIudCNAed7RyImOdxBjv8G9fbw-3E9e7ZPc-N1QLk2LZ9NRJEzUk9vZpMUqv2snalg4YzYpF9nog7f-jfdyEhSu0Mja7X5rKESk2Cq-JZJubkeGDsuSKDNbK0O9XU_P1Z" 
+            frameborder="0" scrolling="auto" allowfullscreen style="display: block;margin-left: auto;margin-right: auto;max-width: 100%;"></iframe>
 
-    
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
     <!--This will be a section for a logo-->
     <img src="img/FRG_Logo.jpeg" class="img-fluid img-logo" alt="">
@@ -105,9 +138,14 @@
     <!-- This section starts the contact section -->
     <div class="filler-div">
     <div class="contact-div">
+
+        <iframe frameborder="0" style="height:500px;width:99%;border:none;" src='https://forms.zohopublic.com/forgerealitygames/form/ContactUs/formperma/q96CDHQkELqB9uOeaik4AH_jCvQOuYq7Y2OWxlNcuO4'></iframe>
+
         <h1 id="contact" class="text-center contact-text header-text">Contact</h1>
         <div class="filler-div"></div>
         
+        <h2 class="contact-text text-center write-text" >
+          Fill out the contact form above or use the email address provided</h2>
         <h2 class="contact-text text-center write-text" id="email-text"><i class="fa-regular fa-envelope icon-style"></i>
         Email: contact@forgerealitygames.com</h2>
 
