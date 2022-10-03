@@ -36,17 +36,26 @@
 }
 .twitter {
   color: #1da1f2;
-  text-decoration: none;
+}
+
+.twitter:hover {
+  color: #1d88ca;
 }
 
 .youtube {
   color: #c4302b;
-  padding-left: 25px;
+}
+
+.youtube:hover {
+  color: #ad2a26;
 }
 
 .itchio {
   color: #fa5c5c;
-  padding-left: 25px;
+}
+
+.itchio:hover {
+  color: #e05353;
 }
 
 .header-text {
@@ -62,6 +71,7 @@
 
 .social-media {
   padding-top: 0px;
+  font-size: 10px;
 }
 
 #about-p {
