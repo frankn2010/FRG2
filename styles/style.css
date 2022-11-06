@@ -8,6 +8,11 @@
   padding-top: 50px;
   padding-bottom: 200px;
   background-color: black;
+  background-image: radial-gradient(
+    circle,
+    rgb(37, 64, 110),
+    rgb(34, 139, 199)
+  );
   /* background-color: #536878; */
   border-radius: 0px;
 }
